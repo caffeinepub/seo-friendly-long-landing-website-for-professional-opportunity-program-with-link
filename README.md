@@ -1,2 +1,3 @@
-# seo-friendly-long-landing-website-for-professional-opportunity-program-with-link
-Exported from Caffeine project: SEO-friendly long landing website for professional opportunity program (with links &amp; posters)
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

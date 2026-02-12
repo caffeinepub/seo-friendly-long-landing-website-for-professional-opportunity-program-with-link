@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-more-static-generated-images-to-the-landing-page-beyond-the-existing-hero-poster-two-promo-posters-and-the-apply-banner-and-place-them-across-multiple-sections-so-the-page-feels-more-visually-rich-while-keeping-the-existing-warm-professional-theme-consistent",
+      "featureTitle": "Add more static, generated images to the landing page (beyond the existing hero poster, two promo posters, and the apply banner) and place them across multiple sections so the page feels more visually rich while keeping the existing warm, professional theme consistent.",
+      "files": [
+        "frontend/src/pages/LandingPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

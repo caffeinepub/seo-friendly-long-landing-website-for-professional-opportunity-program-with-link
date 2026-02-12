@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a long, SEO-friendly marketing website/landing page for the \"Professional Opportunity for Career Counselors, Tutors & Work-From-Home Educators\" program, based on the provided Blogspot content, including all referenced links and promotional posters.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Abstract warm gradient texture with subtle education motifs (warm-texture-1.dim_1600x900.png)\n- Illustrative icon set tile: graduation cap, globe, chat bubble, checklist (education-icons-tile.dim_1200x1200.png)\n- Minimal line-art illustration of a person working from home at a desk with laptop (work-from-home-illustration.dim_1400x900.png)\n- Wide section divider banner with geometric shapes, warm palette, no text (section-divider-1.dim_1600x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-long-form-seo-friendly-marketing-website-single-page-landing-experience-is-acceptable-that-rewrites-and-structures-the-provided-blogspot-content-into-clear-english-sections-with-headings-rich-copy-and-scannable-layout-hero-overview-who-should-apply-platform-features-benefits-fees-how-to-apply-application-form-fields-contact-details-faq-footer",
+      "title": "Create a long-form, SEO-friendly marketing website (single-page landing experience is acceptable) that rewrites and structures the provided Blogspot content into clear English sections with headings, rich copy, and scannable layout (hero, overview, who should apply, platform features, benefits, fees, how to apply, application form fields, contact details, FAQ, footer).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-include-and-prominently-render-all-explicitly-provided-urls-phone-numbers-and-email-addresses-as-usable-links-clickable-and-keep-their-exact-values-no-rewriting-blogspot-source-url-bestinternationaleducation-com-portrait-business-woman-com-10bestincity-com-guidebylocal-com-the-guidebylocal-post-url-the-two-phone-numbers-and-the-two-email-addresses",
+      "title": "Include and prominently render all explicitly provided URLs, phone numbers, and email addresses as usable links (clickable) and keep their exact values (no rewriting): Blogspot source URL, BestInternationalEducation.com, Portrait-Business-Woman.com, 10BestInCity.com, GuideByLocal.com, the GuideByLocal post URL, the two phone numbers, and the two email addresses.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-on-page-application-form-section-that-visually-matches-the-marketing-page-and-includes-the-exact-fields-provided-full-name-date-of-birth-city-gender-age-university-institution-email-whatsapp-linkedin-profile-education-provide-a-clear-submission-action-that-does-not-require-third-party-services-e-g-generates-a-pre-filled-email-draft-to-the-provided-email-address-and-or-a-whatsapp-message-draft-to-one-of-the-provided-numbers",
+      "title": "Add an on-page ‘Application Form’ section that visually matches the marketing page and includes the exact fields provided (Full Name, Date of Birth, City, Gender, Age, University/Institution, Email, WhatsApp, LinkedIn Profile, Education). Provide a clear submission action that does not require third-party services (e.g., generates a pre-filled email draft to the provided email address and/or a WhatsApp message draft to one of the provided numbers).",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-seo-basics-for-a-react-spa-set-page-title-meta-description-canonical-url-placeholder-open-graph-tags-title-description-image-twitter-card-tags-and-add-json-ld-structured-data-for-an-organization-and-a-webpage-using-only-the-details-provided-name-emails-phones-related-urls",
+      "title": "Implement SEO basics for a React SPA: set page title, meta description, canonical URL placeholder, Open Graph tags (title/description/image), Twitter card tags, and add JSON-LD structured data for an Organization and a WebPage using only the details provided (name, emails, phones, related URLs).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-clear-navigation-and-internal-linking-for-the-long-page-sticky-header-with-anchor-links-to-major-sections-apply-today-cta-buttons-that-scroll-to-the-form-a-footer-with-all-external-links",
+      "title": "Add clear navigation and internal linking for the long page (sticky header with anchor links to major sections; ‘Apply Today’ CTA buttons that scroll to the form; a footer with all external links).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-establish-a-creative-coherent-visual-theme-colors-typography-spacing-components-appropriate-for-an-education-professional-opportunity-landing-page-and-apply-it-consistently-across-sections-do-not-use-a-blue-purple-default-palette",
+      "title": "Establish a creative, coherent visual theme (colors, typography, spacing, components) appropriate for an education/professional opportunity landing page, and apply it consistently across sections. Do not use a blue+purple default palette.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-and-display-generated-poster-style-graphics-on-the-landing-page-hero-poster-2-3-section-posters-as-static-assets-under-frontend-public-assets-generated-and-ensure-the-posters-are-used-in-the-hero-and-within-relevant-sections",
+      "title": "Add and display generated ‘poster’ style graphics on the landing page (hero poster + 2–3 section posters) as static assets under frontend/public/assets/generated, and ensure the posters are used in the hero and within relevant sections.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-more-static-generated-images-to-the-landing-page-beyond-the-existing-hero-poster-two-promo-posters-and-the-apply-banner-and-place-them-across-multiple-sections-so-the-page-feels-more-visually-rich-while-keeping-the-existing-warm-professional-theme-consistent",
+      "title": "Add more static, generated images to the landing page (beyond the existing hero poster, two promo posters, and the apply banner) and place them across multiple sections so the page feels more visually rich while keeping the existing warm, professional theme consistent.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a long, SEO-friendly website/landing page based on the provided Blogspot post, including all links and promotional posters",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add more images to the landing page (beyond the currently required posters)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "SEO-friendly long landing website for professional opportunity program (with links & posters)",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

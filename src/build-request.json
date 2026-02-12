@@ -1,0 +1,43 @@
+{
+  "kind": "build_request",
+  "title": "Add additional generated images across the landing page",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Add more static, generated images to the landing page (beyond the existing hero poster, two promo posters, and the apply banner) and place them across multiple sections so the page feels more visually rich while keeping the existing warm, professional theme consistent.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "can you add more images too ?"
+        ]
+      },
+      "acceptanceCriteria": [
+        "New image files are added under frontend/public/assets/generated with the exact filenames specified in imageRequirements.required.",
+        "Landing page (frontend/src/pages/LandingPage.tsx) renders the new images in at least 3 different sections (not only the hero/fees sections) and remains responsive on mobile and desktop.",
+        "All newly added <img> tags include descriptive English alt text.",
+        "No existing required poster images are removed or renamed (opportunity-hero-poster.dim_1600x900.png, promo-poster-1.dim_1080x1080.png, promo-poster-2.dim_1080x1080.png, apply-banner.dim_1600x600.png)."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit files under frontend/src/components/ui (Shadcn UI components are read-only).",
+    "Keep all images as static assets served from frontend/public/assets/generated (do not route images through the backend)."
+  ],
+  "nonGoals": [
+    "Adding any new backend storage or image upload functionality.",
+    "Introducing third-party image/CDN services."
+  ],
+  "imageRequirements": {
+    "required": [
+      "Abstract warm gradient texture with subtle education motifs (warm-texture-1.dim_1600x900.png)",
+      "Illustrative icon set tile: graduation cap, globe, chat bubble, checklist (education-icons-tile.dim_1200x1200.png)",
+      "Minimal line-art illustration of a person working from home at a desk with laptop (work-from-home-illustration.dim_1400x900.png)",
+      "Wide section divider banner with geometric shapes, warm palette, no text (section-divider-1.dim_1600x400.png)"
+    ],
+    "edits": []
+  }
+}

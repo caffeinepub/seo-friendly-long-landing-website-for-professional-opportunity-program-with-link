@@ -1,0 +1,50 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-12T03:22:24.223Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-8",
+        "summary": "Add more static, generated images to the landing page (beyond the existing hero poster, two promo posters, and the apply banner) and place them across multiple sections so the page feels more visually rich while keeping the existing warm, professional theme consistent.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/public/assets/generated/warm-texture-1.dim_1600x900.png",
+          "frontend/public/assets/generated/education-icons-tile.dim_1200x1200.png",
+          "frontend/public/assets/generated/work-from-home-illustration.dim_1400x900.png",
+          "frontend/public/assets/generated/section-divider-1.dim_1600x400.png",
+          "frontend/src/pages/LandingPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/public/assets/generated/warm-texture-1.dim_1600x900.png",
+          "frontend/public/assets/generated/education-icons-tile.dim_1200x1200.png",
+          "frontend/public/assets/generated/work-from-home-illustration.dim_1400x900.png",
+          "frontend/public/assets/generated/section-divider-1.dim_1600x400.png",
+          "frontend/src/pages/LandingPage.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/education-icons-tile.dim_1200x1200.png",
+    "frontend/public/assets/generated/section-divider-1.dim_1600x400.png",
+    "frontend/public/assets/generated/warm-texture-1.dim_1600x900.png",
+    "frontend/public/assets/generated/work-from-home-illustration.dim_1400x900.png",
+    "frontend/src/pages/LandingPage.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the SEO component, landing page, and toast notifications.",
+  "frontend/src/components/Seo.tsx": "SEO component that dynamically sets document metadata, Open Graph tags, Twitter cards, and JSON-LD structured data for the landing page.",
+  "frontend/src/content/contactAndLinks.ts": "Centralized constants module containing all exact contact information (phones, emails, contact person) and external platform URLs to prevent accidental rewriting.",
+  "frontend/src/content/landingCopy.ts": "Structured content module containing all landing page copy organized by section (hero, overview, who we seek, platform details, benefits, vision, fees, apply) for easy maintenance.",
+  "frontend/src/components/StickyHeader.tsx": "Sticky navigation header with smooth-scroll anchor links to major sections, mobile menu toggle, and prominent Apply Now CTA button.",
+  "frontend/src/components/Footer.tsx": "Comprehensive footer displaying partner platform links, contact information, contact person details, source references, copyright notice, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/ApplicationForm.tsx": "Application form component with all required fields, client-side validation, and submission options via email (mailto) or WhatsApp with pre-filled message templates.",
+  "frontend/src/utils/buildDraftLinks.ts": "Utility functions to build properly formatted and URL-encoded mailto and WhatsApp links containing application form data.",
+  "frontend/src/pages/LandingPage.tsx": "Complete long-form landing page with semantic sections including hero, overview, opportunity scope, ideal candidate profile, work-from-home benefits, fees, application form, FAQ accordion, and all promotional posters; now enhanced with four additional generated images distributed across multiple sections (warm texture background in overview, education icons tile in platform section, work-from-home illustration, and section divider) for increased visual richness while maintaining responsive behavior.",
+  "frontend/src/index.css": "Global styles with warm professional color palette (terracotta and cream tones) using OKLCH color system, custom typography settings, and both light and dark mode support.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended theme including custom fonts (Inter and Merriweather), warm color palette tokens, custom shadows, and animation settings.",
+  "frontend/index.html": "HTML entry point with basic meta tags, title, description, and Google Fonts preload; additional SEO tags are set dynamically by the Seo component to avoid build-time asset resolution issues."
+}

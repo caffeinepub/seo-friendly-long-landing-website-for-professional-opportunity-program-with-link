@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no functionality.",
+  "feature_evidence.json": "Feature evidence report describing added static images on the landing page and affected components.",
+  "frontend-file-summaries.txt": "Prewritten summaries of all major frontend files for reference.",
+  "frontend/index.css": "Global Tailwind-based CSS defining color tokens, dark mode values, and base styling.",
+  "frontend/index.html": "HTML entry point setting metadata, loading fonts, and mounting the React app.",
+  "frontend/src/App.tsx": "Main React app rendering SEO configuration, landing page, and toast notifications.",
+  "frontend/src/components/ApplicationForm.tsx": "Application form with validation, state handling, and email/WhatsApp submission helpers.",
+  "frontend/src/components/Footer.tsx": "Footer displaying links, contact info, and partner platforms with responsive layout.",
+  "frontend/src/components/Seo.tsx": "Runtime SEO component setting title, meta tags, Open Graph, Twitter cards, and JSON‑LD.",
+  "frontend/src/components/StickyHeader.tsx": "Sticky header with scroll detection, smooth navigation, and mobile menu toggle.",
+  "frontend/src/content/contactAndLinks.ts": "Exports structured contact info, external URLs, and social labels for use across the site.",
+  "frontend/src/content/landingCopy.ts": "Provides all static text and structured copy for the landing page, including hero, overview, platform details, and candidate criteria.",
+  "frontend/src/hooks/useActor.ts": "Creates and manages a backend actor tied to the user's Internet Identity, refreshing queries when identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Implements an Internet Identity authentication context with login, logout, and identity loading logic.",
+  "frontend/src/index.css": "Defines Tailwind base styles and a custom light/dark theme using CSS variables for the site's design system.",
+  "frontend/src/main.tsx": "Bootstraps the React app with React Query and Internet Identity providers and mounts the root component.",
+  "frontend/src/pages/LandingPage.tsx": "Renders the full marketing landing page using content modules, UI components, sections, and application flow triggers.",
+  "frontend/src/utils/buildDraftLinks.ts": "Generates mailto and WhatsApp links prefilled with application data for submitting user information.",
+  "frontend/tailwind.config.js": "Tailwind config enabling dark mode, custom colors, fonts, radii, shadows, and keyframes, with plugins for typography, container queries, and animations.",
+  "project_state.json": "Project metadata describing requirements for building an SEO-friendly marketing website with specified sections, assets, links, and an application form."
+}

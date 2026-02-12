@@ -1,0 +1,44 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Enrich landing page with additional generated static imagery",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "summary": "Add four new generated static images and place them across multiple landing page sections to increase visual richness while keeping the warm, professional theme and responsive behavior.",
+      "acceptanceCriteria": [
+        "New image files are added under frontend/public/assets/generated with the exact filenames specified in imageRequirements.required.",
+        "Landing page (frontend/src/pages/LandingPage.tsx) renders the new images in at least 3 different sections (not only the hero/fees sections) and remains responsive on mobile and desktop.",
+        "All newly added <img> tags include descriptive English alt text.",
+        "No existing required poster images are removed or renamed (opportunity-hero-poster.dim_1600x900.png, promo-poster-1.dim_1080x1080.png, promo-poster-2.dim_1080x1080.png, apply-banner.dim_1600x600.png)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/warm-texture-1.dim_1600x900.png",
+          "operation": "create",
+          "description": "Add the required generated static asset: Abstract warm gradient texture with subtle education motifs (warm-texture-1.dim_1600x900.png)."
+        },
+        {
+          "path": "frontend/public/assets/generated/education-icons-tile.dim_1200x1200.png",
+          "operation": "create",
+          "description": "Add the required generated static asset: Illustrative icon set tile: graduation cap, globe, chat bubble, checklist (education-icons-tile.dim_1200x1200.png)."
+        },
+        {
+          "path": "frontend/public/assets/generated/work-from-home-illustration.dim_1400x900.png",
+          "operation": "create",
+          "description": "Add the required generated static asset: Minimal line-art illustration of a person working from home at a desk with laptop (work-from-home-illustration.dim_1400x900.png)."
+        },
+        {
+          "path": "frontend/public/assets/generated/section-divider-1.dim_1600x400.png",
+          "operation": "create",
+          "description": "Add the required generated static asset: Wide section divider banner with geometric shapes, warm palette, no text (section-divider-1.dim_1600x400.png)."
+        },
+        {
+          "path": "frontend/src/pages/LandingPage.tsx",
+          "operation": "modify",
+          "description": "Wire the new generated images into the landing page as static <img> elements (served from frontend/public/assets/generated) and distribute them across at least 3 different sections beyond the existing hero/fees imagery. Use: frontend/public/assets/generated/warm-texture-1.dim_1600x900.png as a subtle decorative/background-adjacent image in an early section; frontend/public/assets/generated/education-icons-tile.dim_1200x1200.png as a supporting visual near a content block (e.g., overview/about platform); frontend/public/assets/generated/work-from-home-illustration.dim_1400x900.png inside the Work From Home section as a complementary illustration; and frontend/public/assets/generated/section-divider-1.dim_1600x400.png as a responsive full-width divider between two major sections. Ensure all new images have descriptive English alt text, are responsive (appropriate sizing, stacking on mobile), and do not remove/rename existing required poster images already referenced on the page."
+        }
+      ]
+    }
+  ]
+}
